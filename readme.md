@@ -46,4 +46,4 @@ Los requisitos que nos llegan del cliente son los siguientes:
 
 Se trata de hacer un programa en Java que permita gestionar el zoológico, de acuerdo con las indicaciones dadas por el cliente.
 
--proyecto 
+-
