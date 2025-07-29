@@ -45,3 +45,5 @@ Los requisitos que nos llegan del cliente son los siguientes:
 - En el zoológico, tengo disponibles varios tipos de hábitats (habitats), de distintos tamaños (terrestre (terrestrial), acuático (aquatic), terrario (terrarium)).
 
 Se trata de hacer un programa en Java que permita gestionar el zoológico, de acuerdo con las indicaciones dadas por el cliente.
+
+-proyecto 
