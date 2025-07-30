@@ -1,6 +1,6 @@
-package com.cdsb.Class.Acuatics;
+package com.cdsb.Animals.Reptiles;
 
-import com.cdsb.Class.Animals;
+import com.cdsb.Animals.Animals;
 import com.cdsb.Enums.Behaviour;
 import com.cdsb.Enums.Feed;
 import com.cdsb.Enums.Habitats;
@@ -8,7 +8,7 @@ import com.cdsb.Enums.Species;
 
 
 
-public class Dolphin extends Animals {
+public class Snake extends Animals {
 
     int habitatSize;
     Feed feed;
@@ -16,13 +16,14 @@ public class Dolphin extends Animals {
     boolean cares;
     Species specie;
 
-    public Dolphin(Behaviour behaviour, Habitats habitat,int habitatSize,Feed feed,int frequency,boolean cares, Species specie){
-        super(behaviour, habitat);
+    public Snake(Behaviour behaviour, Habitats habitat, int habitatSize, Feed feed, int frequency, boolean cares, Species specie){
+        super(behaviour,habitat);
         this.cares=cares;
         this.feed=feed;
         this.frequency=frequency;
-        this.habitatSize=habitatSize;
+        this.cares=cares;
         this.specie=specie;
+
     }
     public double getSize(){
         return habitatSize;
@@ -53,16 +54,17 @@ public class Dolphin extends Animals {
         System.out.println("Frequency Feed:" + getFrequency());
         System.out.println("Need Cares?:" +getCares());
         System.out.println("Specie:" + getSpecie());
-        makeSounds();
-        habitatExact();
     }
      @Override
      public void makeSounds() {
-        System.out.println("Soy el delfin");
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'makeSounds'");
      }
      @Override
      public void habitatExact() {
-       System.out.println("Vivo en el mar");
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'habitatExact'");
      }
+
 
 }

@@ -1,29 +1,29 @@
-package com.cdsb.Class.Birds;
+package com.cdsb.Animals.Mammals;
 
-import com.cdsb.Class.Animals;
+import com.cdsb.Animals.Animals;
 import com.cdsb.Enums.Behaviour;
 import com.cdsb.Enums.Feed;
 import com.cdsb.Enums.Habitats;
 import com.cdsb.Enums.Species;
 
 
+public class Lion extends Animals {
 
-public class Toucan extends Animals {
+    private int habitatSize;
+    private Feed feed;
+    private int frequency;
+    private boolean cares;
+    private Species specie;
 
-
-    int habitatSize;
-    Feed feed;
-    int frequency;
-    boolean cares;
-    Species specie;
-
-    public Toucan (Behaviour behaviour, Habitats habitat,int habitatSize,Feed feed,int frequency,boolean cares, Species specie){
+    public Lion(Behaviour behaviour, Habitats habitat, int habitatSize, Feed feed, int frequency, boolean cares, Species specie){
         super(behaviour, habitat);
         this.cares=cares;
         this.feed=feed;
         this.frequency=frequency;
         this.habitatSize=habitatSize;
         this.specie=specie;
+
+
     }
     public double getSize(){
         return habitatSize;
@@ -57,13 +57,15 @@ public class Toucan extends Animals {
     }
      @Override
      public void makeSounds() {
-        
+        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'makeSounds'");
      }
      @Override
      public void habitatExact() {
-        
+        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'habitatExact'");
      }
+
+
 
 }

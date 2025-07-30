@@ -1,6 +1,6 @@
-package com.cdsb.Class.Mammals;
+package com.cdsb.Animals.Mammals;
 
-import com.cdsb.Class.Animals;
+import com.cdsb.Animals.Animals;
 import com.cdsb.Enums.Behaviour;
 import com.cdsb.Enums.Feed;
 import com.cdsb.Enums.Habitats;

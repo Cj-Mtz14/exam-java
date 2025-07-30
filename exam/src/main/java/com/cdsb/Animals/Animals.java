@@ -1,4 +1,4 @@
-package com.cdsb.Class;
+package com.cdsb.Animals;
 
 import com.cdsb.Enums.Behaviour;
 import com.cdsb.Enums.Habitats;
