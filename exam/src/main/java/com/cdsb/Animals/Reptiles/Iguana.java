@@ -1,6 +1,5 @@
 package com.cdsb.Animals.Reptiles;
 
-import com.cdsb.Class.Animals;
 import com.cdsb.Enums.Behaviour;
 import com.cdsb.Enums.Feed;
 import com.cdsb.Enums.Habitats;
@@ -40,6 +39,7 @@ public class Iguana extends Animals implements Live {
         return behaviour;
     }
     public Habitats getHabitat(){
+        Habitats habitat;
         return habitat;
     }
     public Reptiles getSpecie(){
